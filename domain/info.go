@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/concurrency"
+	"github.com/powerispower/etcdv3/clientv3"
+	"github.com/powerispower/etcdv3/clientv3/concurrency"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/mysql"
 	"github.com/powerispower/tidb/config"

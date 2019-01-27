@@ -17,7 +17,7 @@ import (
 	"strings"
 
 	"github.com/pingcap/parser/charset"
-	"github.com/powerispower/tidb/util/hack"
+	"github.com/pingcap/tidb/util/hack"
 )
 
 func isLetter(ch rune) bool {

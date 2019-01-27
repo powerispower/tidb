@@ -21,7 +21,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/powerispower/etcdv3/clientv3"
 	"github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/ngaut/pools"
 	"github.com/ngaut/sync2"

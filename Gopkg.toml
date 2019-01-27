@@ -1,4 +1,4 @@
-ignored = ["github.com/coreos/etcd/etcdserver", "github.com/coreos/etcd/mvcc", "github.com/coreos/etcd/auth"]
+ignored = []
 required = ["github.com/golang/protobuf/jsonpb"]
 
 [prune]
@@ -13,11 +13,6 @@ required = ["github.com/golang/protobuf/jsonpb"]
 [[constraint]]
   branch = "master"
   name = "github.com/blacktear23/go-proxyprotocol"
-
-# lock etcd version at 3.2.18
-[[constraint]]
-  name = "github.com/coreos/etcd"
-  version = "=3.2.18"
 
 [[constraint]]
   name = "google.golang.org/grpc"

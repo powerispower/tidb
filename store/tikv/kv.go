@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/powerispower/etcdv3/clientv3"
 	"github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/pd/client"

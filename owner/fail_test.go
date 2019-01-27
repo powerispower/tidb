@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/powerispower/etcdv3/clientv3"
 	. "github.com/pingcap/check"
 	gofail "github.com/pingcap/gofail/runtime"
 	"github.com/pingcap/parser/terror"

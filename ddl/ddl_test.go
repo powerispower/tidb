@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/powerispower/etcdv3/clientv3"
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"

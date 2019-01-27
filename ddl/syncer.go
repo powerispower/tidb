@@ -22,8 +22,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/coreos/etcd/clientv3"
-	"github.com/coreos/etcd/clientv3/concurrency"
+	"github.com/powerispower/etcdv3/clientv3"
+	"github.com/powerispower/etcdv3/clientv3/concurrency"
 	"github.com/pingcap/errors"
 	"github.com/powerispower/tidb/metrics"
 	"github.com/powerispower/tidb/owner"

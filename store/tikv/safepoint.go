@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/etcd/clientv3"
+	"github.com/powerispower/etcdv3/clientv3"
 	"github.com/pingcap/errors"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"

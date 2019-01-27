@@ -30,20 +30,6 @@
   revision = "f8ad88b59a584afeee9d334eff879b104439117b"
 
 [[projects]]
-  name = "github.com/coreos/etcd"
-  packages = [
-    "auth/authpb",
-    "clientv3",
-    "clientv3/concurrency",
-    "etcdserver/api/v3rpc/rpctypes",
-    "etcdserver/etcdserverpb",
-    "mvcc/mvccpb",
-    "pkg/types"
-  ]
-  revision = "eddf599c689ec85f4752060edff5a72e81e9106a"
-  version = "v3.2.18"
-
-[[projects]]
   name = "github.com/cznic/mathutil"
   packages = ["."]
   revision = "78ad7f262603437f0ecfebc835d80094f89c8f54"
