@@ -22,10 +22,10 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/store/mockstore"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/meta"
+	"github.com/powerispower/tidb/meta/autoid"
+	"github.com/powerispower/tidb/store/mockstore"
 )
 
 func TestT(t *testing.T) {

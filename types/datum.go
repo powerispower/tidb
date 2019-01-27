@@ -26,9 +26,9 @@ import (
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/types/json"
+	"github.com/powerispower/tidb/util/hack"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -1138,8 +1138,8 @@ func ProduceDecWithSpecifiedTp(dec *MyDecimal, tp *FieldType, sc *stmtctx.Statem
 			}
 			if !dec.IsZero() && frac > decimal && dec.Compare(&old) != 0 {
 				if sc.InInsertStmt || sc.InUpdateOrDeleteStmt {
-					// fix https://github.com/pingcap/tidb/issues/3895
-					// fix https://github.com/pingcap/tidb/issues/5532
+					// fix https://github.com/powerispower/tidb/issues/3895
+					// fix https://github.com/powerispower/tidb/issues/5532
 					sc.AppendWarning(ErrTruncated)
 					err = nil
 				} else {

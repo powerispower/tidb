@@ -21,11 +21,11 @@ import (
 	. "github.com/pingcap/check"
 	gofail "github.com/pingcap/gofail/runtime"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/session"
-	. "github.com/pingcap/tidb/store/tikv"
-	"github.com/pingcap/tidb/util/mock"
-	"github.com/pingcap/tidb/util/testkit"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/session"
+	. "github.com/powerispower/tidb/store/tikv"
+	"github.com/powerispower/tidb/util/mock"
+	"github.com/powerispower/tidb/util/testkit"
 	"golang.org/x/net/context"
 )
 
@@ -58,11 +58,11 @@ func (s *testSQLSuite) TestFailBusyServerCop(c *C) {
 	var wg sync.WaitGroup
 	wg.Add(2)
 
-	gofail.Enable("github.com/pingcap/tidb/store/mockstore/mocktikv/rpcServerBusy", `return(true)`)
+	gofail.Enable("github.com/powerispower/tidb/store/mockstore/mocktikv/rpcServerBusy", `return(true)`)
 	go func() {
 		defer wg.Done()
 		time.Sleep(time.Millisecond * 100)
-		gofail.Disable("github.com/pingcap/tidb/store/mockstore/mocktikv/rpcServerBusy")
+		gofail.Disable("github.com/powerispower/tidb/store/mockstore/mocktikv/rpcServerBusy")
 	}()
 
 	go func() {

@@ -19,11 +19,11 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/planner/property"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
 )
 
 const (

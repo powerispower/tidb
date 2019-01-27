@@ -17,7 +17,7 @@ import (
 	"encoding/binary"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
+	"github.com/powerispower/tidb/kv"
 )
 
 type listMeta struct {

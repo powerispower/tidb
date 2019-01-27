@@ -15,7 +15,7 @@ package kv
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/store/tikv/oracle"
+	"github.com/powerispower/tidb/store/tikv/oracle"
 	"golang.org/x/net/context"
 )
 

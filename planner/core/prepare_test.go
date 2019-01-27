@@ -15,9 +15,9 @@ package core_test
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 var _ = Suite(&testPrepareSuite{})

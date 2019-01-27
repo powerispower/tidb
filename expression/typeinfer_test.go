@@ -20,14 +20,14 @@ import (
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/domain"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/printer"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/domain"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/printer"
+	"github.com/powerispower/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 var _ = Suite(&testInferTypeSuite{})

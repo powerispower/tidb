@@ -24,8 +24,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/store/tikv"
+	"github.com/powerispower/tidb/config"
+	"github.com/powerispower/tidb/store/tikv"
 	log "github.com/sirupsen/logrus"
 )
 

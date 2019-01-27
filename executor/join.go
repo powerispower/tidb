@@ -21,14 +21,14 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/expression"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/memory"
-	"github.com/pingcap/tidb/util/mvmap"
+	"github.com/powerispower/tidb/expression"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/codec"
+	"github.com/powerispower/tidb/util/memory"
+	"github.com/powerispower/tidb/util/mvmap"
 	"golang.org/x/net/context"
 )
 

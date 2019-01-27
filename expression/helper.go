@@ -22,10 +22,10 @@ import (
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/parser_driver"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/types/parser_driver"
 )
 
 func boolToInt64(v bool) int64 {

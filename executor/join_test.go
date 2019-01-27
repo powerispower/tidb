@@ -17,9 +17,9 @@ import (
 	"time"
 
 	. "github.com/pingcap/check"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/util/testkit"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/util/testkit"
 	"golang.org/x/net/context"
 )
 

@@ -6,11 +6,11 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/expression"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/mock"
+	"github.com/powerispower/tidb/expression"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/mock"
 	"golang.org/x/net/context"
 )
 

@@ -14,8 +14,8 @@
 package core
 
 import (
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/powerispower/tidb/planner/property"
+	"github.com/powerispower/tidb/sessionctx"
 )
 
 const (

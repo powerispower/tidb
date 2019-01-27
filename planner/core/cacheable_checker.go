@@ -15,8 +15,8 @@ package core
 
 import (
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/types/parser_driver"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/types/parser_driver"
 )
 
 // Cacheable checks whether the input ast is cacheable.

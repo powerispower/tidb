@@ -16,8 +16,8 @@ package statistics
 import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/codec"
 )
 
 var _ = Suite(&testFeedbackSuite{})

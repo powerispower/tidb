@@ -21,14 +21,14 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/perfschema"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/testleak"
-	"github.com/pingcap/tidb/util/testutil"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/meta"
+	"github.com/powerispower/tidb/perfschema"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/testleak"
+	"github.com/powerispower/tidb/util/testutil"
 )
 
 func TestT(t *testing.T) {

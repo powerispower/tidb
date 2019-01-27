@@ -18,8 +18,8 @@ import (
 	"strings"
 
 	. "github.com/pingcap/check"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/util/testkit"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/util/testkit"
 )
 
 const plan1 = `[[TableScan_12 {

@@ -21,12 +21,12 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/ddl/util"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/store/tikv/oracle"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/ddl/util"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/store/tikv/oracle"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/util/sqlexec"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -20,7 +20,7 @@ import (
 	"sort"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/store/mockstore/mocktikv"
+	"github.com/powerispower/tidb/store/mockstore/mocktikv"
 )
 
 type testDeleteRangeSuite struct {

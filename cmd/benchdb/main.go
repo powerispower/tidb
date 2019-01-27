@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store/tikv"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/store/tikv"
+	"github.com/powerispower/tidb/util/logutil"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

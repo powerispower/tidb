@@ -15,9 +15,9 @@ package ddl
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/admin"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/util/admin"
 )
 
 var (

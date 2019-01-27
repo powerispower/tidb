@@ -19,10 +19,10 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mock"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/mock"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 var _ = Suite(&testTimeSuite{})

@@ -16,8 +16,8 @@ package ddl
 import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/meta"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/meta"
 )
 
 func onCreateForeignKey(t *meta.Meta, job *model.Job) (ver int64, _ error) {

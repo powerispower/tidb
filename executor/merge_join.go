@@ -17,10 +17,10 @@ import (
 	"time"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/memory"
 	"golang.org/x/net/context"
 )
 

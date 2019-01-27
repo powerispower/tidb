@@ -18,12 +18,12 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mock"
-	"github.com/pingcap/tidb/util/testkit"
+	"github.com/powerispower/tidb/executor"
+	"github.com/powerispower/tidb/meta/autoid"
+	"github.com/powerispower/tidb/table/tables"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/mock"
+	"github.com/powerispower/tidb/util/testkit"
 	"golang.org/x/net/context"
 )
 

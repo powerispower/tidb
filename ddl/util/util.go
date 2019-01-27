@@ -19,10 +19,10 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/sqlexec"
 	"golang.org/x/net/context"
 )
 

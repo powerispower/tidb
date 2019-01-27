@@ -22,8 +22,8 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/store/mockstore/mocktikv"
-	"github.com/pingcap/tidb/store/tikv/tikvrpc"
+	"github.com/powerispower/tidb/store/mockstore/mocktikv"
+	"github.com/powerispower/tidb/store/tikv/tikvrpc"
 	"golang.org/x/net/context"
 )
 

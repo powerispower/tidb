@@ -17,9 +17,9 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/testleak"
 	"github.com/pingcap/tipb/go-tipb"
 )
 

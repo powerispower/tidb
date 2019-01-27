@@ -20,8 +20,8 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types/json"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/types/json"
 )
 
 var _ = Suite(&testDatumSuite{})

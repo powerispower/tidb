@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 var _ = Suite(&testEncryptSuite{})

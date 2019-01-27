@@ -15,10 +15,10 @@ package executor
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/table/tables"
+	"github.com/powerispower/tidb/tablecodec"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

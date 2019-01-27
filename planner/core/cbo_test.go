@@ -20,16 +20,16 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/config"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/statistics"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 var _ = Suite(&testAnalyzeSuite{})

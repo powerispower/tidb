@@ -15,7 +15,7 @@ package expression
 
 import (
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/chunk"
 	log "github.com/sirupsen/logrus"
 )
 

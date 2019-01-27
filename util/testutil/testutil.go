@@ -18,8 +18,8 @@ import (
 	"strings"
 
 	"github.com/pingcap/check"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/types"
 )
 
 // CompareUnorderedStringSlice compare two string slices.

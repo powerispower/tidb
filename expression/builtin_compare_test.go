@@ -20,10 +20,10 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/types/json"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 func (s *testEvaluatorSuite) TestCompareFunctionWithRefine(c *C) {

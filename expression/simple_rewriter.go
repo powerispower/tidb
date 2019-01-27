@@ -20,9 +20,9 @@ import (
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/opcode"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/parser_driver"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/types/parser_driver"
 )
 
 type simpleRewriter struct {

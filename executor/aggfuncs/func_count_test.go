@@ -15,13 +15,13 @@ package aggfuncs_test
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/ast"
-	"github.com/pingcap/tidb/executor/aggfuncs"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/ast"
+	"github.com/powerispower/tidb/executor/aggfuncs"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/expression/aggregation"
+	"github.com/powerispower/tidb/mysql"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
 )
 
 func (s *testSuite) TestMergePartialResult4Count(c *C) {

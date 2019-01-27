@@ -23,11 +23,11 @@ import (
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/parser_driver"
+	"github.com/powerispower/tidb/ddl"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/types/parser_driver"
 )
 
 // Preprocess resolves table names of the node, and checks some statements validation.
@@ -473,7 +473,7 @@ func checkColumn(colDef *ast.ColumnDef) error {
 		cs := tp.Charset
 		// TODO: TableDefaultCharset-->DatabaseDefaultCharset-->SystemDefaultCharset.
 		// TODO: Change TableOption parser to parse collate.
-		// Reference https://github.com/pingcap/tidb/blob/b091e828cfa1d506b014345fb8337e424a4ab905/ddl/ddl_api.go#L185-L204
+		// Reference https://github.com/powerispower/tidb/blob/b091e828cfa1d506b014345fb8337e424a4ab905/ddl/ddl_api.go#L185-L204
 		if len(tp.Charset) == 0 {
 			cs = mysql.DefaultCharset
 		}

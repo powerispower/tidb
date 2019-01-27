@@ -15,7 +15,7 @@ package core
 
 import (
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/expression"
+	"github.com/powerispower/tidb/expression"
 )
 
 // AggregateFuncExtractor visits Expr tree.

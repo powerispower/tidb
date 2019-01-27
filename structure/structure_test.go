@@ -17,10 +17,10 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/structure"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/structure"
+	"github.com/powerispower/tidb/util/testleak"
 	"golang.org/x/net/context"
 )
 

@@ -21,10 +21,10 @@ import (
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/opcode"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/types/json"
+	"github.com/powerispower/tidb/util/chunk"
 	"github.com/pingcap/tipb/go-tipb"
 )
 

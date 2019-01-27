@@ -26,8 +26,8 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/tikv/tikvrpc"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/store/tikv/tikvrpc"
 	"golang.org/x/net/context"
 )
 

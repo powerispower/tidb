@@ -16,10 +16,10 @@ package executor_test
 import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testutil"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testutil"
 	"golang.org/x/net/context"
 )
 

@@ -20,9 +20,9 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/pd/client"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/store/tikv/tikvrpc"
+	"github.com/powerispower/tidb/config"
+	"github.com/powerispower/tidb/metrics"
+	"github.com/powerispower/tidb/store/tikv/tikvrpc"
 	"golang.org/x/net/context"
 )
 

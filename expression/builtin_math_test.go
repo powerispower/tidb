@@ -23,10 +23,10 @@ import (
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/testleak"
-	"github.com/pingcap/tidb/util/testutil"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/testleak"
+	"github.com/powerispower/tidb/util/testutil"
 )
 
 func (s *testEvaluatorSuite) TestAbs(c *C) {

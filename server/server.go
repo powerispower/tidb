@@ -46,10 +46,10 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util"
+	"github.com/powerispower/tidb/config"
+	"github.com/powerispower/tidb/metrics"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/util"
 	log "github.com/sirupsen/logrus"
 )
 

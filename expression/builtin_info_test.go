@@ -21,11 +21,11 @@ import (
 	"github.com/pingcap/parser/auth"
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/mock"
-	"github.com/pingcap/tidb/util/printer"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/mock"
+	"github.com/powerispower/tidb/util/printer"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 func (s *testEvaluatorSuite) TestDatabase(c *C) {

@@ -23,9 +23,9 @@ import (
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/types/json"
+	"github.com/powerispower/tidb/util/chunk"
 )
 
 func (s *testEvaluatorSuite) TestCast(c *C) {

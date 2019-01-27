@@ -18,12 +18,12 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/distsql"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/ranger"
+	"github.com/powerispower/tidb/distsql"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/statistics"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/ranger"
 	tipb "github.com/pingcap/tipb/go-tipb"
 	"golang.org/x/net/context"
 )

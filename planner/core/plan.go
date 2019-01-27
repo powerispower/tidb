@@ -19,9 +19,9 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/planner/property"
+	"github.com/powerispower/tidb/sessionctx"
 	"github.com/pingcap/tipb/go-tipb"
 )
 

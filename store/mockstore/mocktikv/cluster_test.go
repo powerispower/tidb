@@ -21,13 +21,13 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/store/mockstore/mocktikv"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/store/mockstore/mocktikv"
+	"github.com/powerispower/tidb/tablecodec"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/codec"
 	"golang.org/x/net/context"
 )
 

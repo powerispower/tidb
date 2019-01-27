@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/util/sqlexec"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

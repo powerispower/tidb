@@ -24,10 +24,10 @@ import (
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/mock"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/mock"
 )
 
 type benchHelper struct {

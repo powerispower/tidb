@@ -16,7 +16,7 @@ package ddl
 import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/table"
+	"github.com/powerispower/tidb/table"
 )
 
 // columnGenerationInDDL is a struct for validating generated columns in DDL.

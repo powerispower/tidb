@@ -18,9 +18,9 @@ import (
 	"unsafe"
 
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/json"
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/types/json"
+	"github.com/powerispower/tidb/util/hack"
 )
 
 // Row represents a row of data, can be used to assess values.

@@ -16,8 +16,8 @@ package privilege
 import (
 	"github.com/pingcap/parser/auth"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/types"
 )
 
 type keyType int

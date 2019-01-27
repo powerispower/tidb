@@ -21,11 +21,11 @@ import (
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/ranger"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/expression/aggregation"
+	"github.com/powerispower/tidb/planner/property"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/ranger"
 )
 
 func (p *LogicalUnionScan) exhaustPhysicalPlans(prop *property.PhysicalProperty) []PhysicalPlan {

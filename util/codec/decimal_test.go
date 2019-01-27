@@ -15,8 +15,8 @@ package codec
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 var _ = Suite(&testDecimalSuite{})

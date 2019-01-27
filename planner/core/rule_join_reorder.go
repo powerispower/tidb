@@ -17,8 +17,8 @@ import (
 	"sort"
 
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/sessionctx"
 	log "github.com/sirupsen/logrus"
 )
 

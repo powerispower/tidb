@@ -14,7 +14,7 @@
 package core
 
 import (
-	"github.com/pingcap/tidb/expression"
+	"github.com/powerispower/tidb/expression"
 )
 
 func (ds *DataSource) preparePossibleProperties() [][]*expression.Column {

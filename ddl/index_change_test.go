@@ -18,12 +18,12 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/meta"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/testleak"
 	"golang.org/x/net/context"
 )
 

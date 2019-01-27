@@ -15,8 +15,8 @@ package expression
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/util/chunk"
 )
 
 type columnEvaluator struct {

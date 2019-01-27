@@ -15,10 +15,10 @@ package aggregation
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/mvmap"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/codec"
+	"github.com/powerispower/tidb/util/mvmap"
 )
 
 // distinctChecker stores existing keys and checks if given data is distinct.

@@ -20,9 +20,9 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/meta"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/util/testleak"
 	"golang.org/x/net/context"
 )
 

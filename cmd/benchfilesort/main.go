@@ -26,11 +26,11 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/filesort"
-	"github.com/pingcap/tidb/util/logutil"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/codec"
+	"github.com/powerispower/tidb/util/filesort"
+	"github.com/powerispower/tidb/util/logutil"
 	log "github.com/sirupsen/logrus"
 )
 

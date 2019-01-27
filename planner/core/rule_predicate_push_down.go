@@ -16,9 +16,9 @@ import (
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/types"
 )
 
 type ppdSolver struct{}

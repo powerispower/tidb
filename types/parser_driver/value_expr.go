@@ -20,8 +20,8 @@ import (
 
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/hack"
 )
 
 // The purpose of driver package is to decompose the dependency of the parser and

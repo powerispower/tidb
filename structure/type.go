@@ -17,8 +17,8 @@ import (
 	"bytes"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/util/codec"
 )
 
 // TypeFlag is for data structure meta/data flag.

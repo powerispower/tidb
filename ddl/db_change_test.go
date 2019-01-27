@@ -26,18 +26,18 @@ import (
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/util/admin"
-	"github.com/pingcap/tidb/util/sqlexec"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/ddl"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/executor"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/util/admin"
+	"github.com/powerispower/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testleak"
 	"golang.org/x/net/context"
 )
 
@@ -400,7 +400,7 @@ func (s *testStateChangeSuite) TestAppendEnum(c *C) {
 	checkResult(result, testkit.Rows(expected...))
 }
 
-// https://github.com/pingcap/tidb/pull/6249 fixes the following two test cases.
+// https://github.com/powerispower/tidb/pull/6249 fixes the following two test cases.
 func (s *testStateChangeSuite) TestWriteOnlyWriteNULL(c *C) {
 	sqls := make([]sqlWithErr, 1)
 	sqls[0] = sqlWithErr{"insert t set c1 = 'c1_new', c3 = '2019-02-12', c4 = 8 on duplicate key update c1 = values(c1)", nil}

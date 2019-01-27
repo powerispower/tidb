@@ -17,8 +17,8 @@ import (
 	"math"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/planner/property"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/planner/property"
 	log "github.com/sirupsen/logrus"
 )
 

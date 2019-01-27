@@ -1,4 +1,4 @@
-module github.com/pingcap/tidb
+module github.com/powerispower/tidb
 
 require (
 	github.com/BurntSushi/toml v0.3.1
@@ -18,7 +18,7 @@ require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/dustin/go-humanize v0.0.0-20180421182945-02af3965c54e // indirect
 	github.com/eknkc/amber v0.0.0-20171010120322-cdade1c07385 // indirect
-	github.com/etcd-io/gofail v0.0.0-20180808172546-51ce9a71510a
+	github.com/etcd-io/gofail v0.0.0-20180808172546-51ce9a71510a // indirect
 	github.com/fsnotify/fsnotify v1.4.7 // indirect
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-sql-driver/mysql v0.0.0-20170715192408-3955978caca4
@@ -50,7 +50,7 @@ require (
 	github.com/pingcap/kvproto v0.0.0-20181109035735-8e3f33ac4929
 	github.com/pingcap/parser v0.0.0-20181207085916-6c21d4344dfa
 	github.com/pingcap/pd v2.1.0-rc.4+incompatible
-	github.com/pingcap/tidb-tools v2.1.1-0.20181218072513-b2235d442b06+incompatible
+	github.com/pingcap/tidb v2.0.11+incompatible // indirect
 	github.com/pingcap/tipb v0.0.0-20180910045846-371b48b15d93
 	github.com/pkg/errors v0.8.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect

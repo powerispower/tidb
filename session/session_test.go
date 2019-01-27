@@ -25,24 +25,24 @@ import (
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/kv"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/privilege/privileges"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/binloginfo"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/store/mockstore/mocktikv"
-	"github.com/pingcap/tidb/table/tables"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/sqlexec"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
-	"github.com/pingcap/tidb/util/testutil"
+	"github.com/powerispower/tidb/config"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/executor"
+	"github.com/powerispower/tidb/kv"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/privilege/privileges"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/sessionctx/binloginfo"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/store/mockstore/mocktikv"
+	"github.com/powerispower/tidb/table/tables"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testleak"
+	"github.com/powerispower/tidb/util/testutil"
 	"github.com/pingcap/tipb/go-binlog"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
@@ -774,7 +774,7 @@ func (s *testSessionSuite) TestAutoIncrementID(c *C) {
 }
 
 func (s *testSessionSuite) TestAutoIncrementWithRetry(c *C) {
-	// test for https://github.com/pingcap/tidb/issues/827
+	// test for https://github.com/powerispower/tidb/issues/827
 
 	tk := testkit.NewTestKitWithInit(c, s.store)
 	tk1 := testkit.NewTestKitWithInit(c, s.store)
@@ -1023,7 +1023,7 @@ func (s *testSessionSuite) TestResultField(c *C) {
 }
 
 func (s *testSessionSuite) TestResultType(c *C) {
-	// Testcase for https://github.com/pingcap/tidb/issues/325
+	// Testcase for https://github.com/powerispower/tidb/issues/325
 	tk := testkit.NewTestKitWithInit(c, s.store)
 	rs, err := tk.Exec(`select cast(null as char(30))`)
 	c.Assert(err, IsNil)
@@ -1174,7 +1174,7 @@ func (s *testSessionSuite) TestISColumns(c *C) {
 }
 
 func (s *testSessionSuite) TestRetry(c *C) {
-	// For https://github.com/pingcap/tidb/issues/571
+	// For https://github.com/powerispower/tidb/issues/571
 	tk := testkit.NewTestKitWithInit(c, s.store)
 
 	tk.MustExec("begin")
@@ -1244,7 +1244,7 @@ func (s *testSessionSuite) TestDecimal(c *C) {
 func (s *testSessionSuite) TestParser(c *C) {
 	tk := testkit.NewTestKitWithInit(c, s.store)
 
-	// test for https://github.com/pingcap/tidb/pull/177
+	// test for https://github.com/powerispower/tidb/pull/177
 	tk.MustExec("CREATE TABLE `t1` ( `a` char(3) NOT NULL default '', `b` char(3) NOT NULL default '', `c` char(3) NOT NULL default '', PRIMARY KEY  (`a`,`b`,`c`)) ENGINE=InnoDB;")
 	tk.MustExec("CREATE TABLE `t2` ( `a` char(3) NOT NULL default '', `b` char(3) NOT NULL default '', `c` char(3) NOT NULL default '', PRIMARY KEY  (`a`,`b`,`c`)) ENGINE=InnoDB;")
 	tk.MustExec(`INSERT INTO t1 VALUES (1,1,1);`)
@@ -1259,7 +1259,7 @@ func (s *testSessionSuite) TestParser(c *C) {
 func (s *testSessionSuite) TestOnDuplicate(c *C) {
 	tk := testkit.NewTestKitWithInit(c, s.store)
 
-	// test for https://github.com/pingcap/tidb/pull/454
+	// test for https://github.com/powerispower/tidb/pull/454
 	tk.MustExec("drop table if exists t")
 	tk.MustExec("drop table if exists t1")
 	tk.MustExec("create table t1 (c1 int, c2 int, c3 int);")
@@ -1272,7 +1272,7 @@ func (s *testSessionSuite) TestOnDuplicate(c *C) {
 func (s *testSessionSuite) TestReplace(c *C) {
 	tk := testkit.NewTestKitWithInit(c, s.store)
 
-	// test for https://github.com/pingcap/tidb/pull/456
+	// test for https://github.com/powerispower/tidb/pull/456
 	tk.MustExec("drop table if exists t")
 	tk.MustExec("drop table if exists t1")
 	tk.MustExec("create table t1 (c1 int, c2 int, c3 int);")
@@ -1283,7 +1283,7 @@ func (s *testSessionSuite) TestReplace(c *C) {
 }
 
 func (s *testSessionSuite) TestDelete(c *C) {
-	// test for https://github.com/pingcap/tidb/pull/1135
+	// test for https://github.com/powerispower/tidb/pull/1135
 
 	tk := testkit.NewTestKitWithInit(c, s.store)
 	tk1 := testkit.NewTestKit(c, s.store)
@@ -1353,7 +1353,7 @@ func (s *testSessionSuite) TestResetCtx(c *C) {
 }
 
 func (s *testSessionSuite) TestUnique(c *C) {
-	// test for https://github.com/pingcap/tidb/pull/461
+	// test for https://github.com/powerispower/tidb/pull/461
 
 	tk := testkit.NewTestKitWithInit(c, s.store)
 	tk1 := testkit.NewTestKitWithInit(c, s.store)
@@ -1378,7 +1378,7 @@ func (s *testSessionSuite) TestUnique(c *C) {
 	c.Assert(terror.ErrorEqual(err, kv.ErrKeyExists), IsTrue, Commentf("err %v", err))
 	c.Assert(err.Error(), Equals, "[kv:1062]Duplicate entry '2' for key 'val'")
 
-	// Test for https://github.com/pingcap/tidb/issues/463
+	// Test for https://github.com/powerispower/tidb/issues/463
 	tk.MustExec("drop table test;")
 	tk.MustExec(`CREATE TABLE test (
 			id int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -1419,7 +1419,7 @@ func (s *testSessionSuite) TestUnique(c *C) {
 }
 
 func (s *testSessionSuite) TestSet(c *C) {
-	// Test for https://github.com/pingcap/tidb/issues/1114
+	// Test for https://github.com/powerispower/tidb/issues/1114
 
 	tk := testkit.NewTestKitWithInit(c, s.store)
 	tk.MustExec("set @tmp = 0")
@@ -1730,7 +1730,7 @@ func (s *testSchemaSuite) TestRetrySchemaChange(c *C) {
 	}
 
 	// In order to cover a bug that statement history is not updated during retry.
-	// See https://github.com/pingcap/tidb/pull/5202
+	// See https://github.com/powerispower/tidb/pull/5202
 	// Step1: when tk1 commit, it find schema changed and retry().
 	// Step2: during retry, hook() is called, tk update primary key.
 	// Step3: tk1 continue commit in retry() meet a retryable error(write conflict), retry again.

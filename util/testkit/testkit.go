@@ -21,10 +21,10 @@ import (
 
 	"github.com/pingcap/check"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/util/sqlexec"
-	"github.com/pingcap/tidb/util/testutil"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/util/testutil"
 	"golang.org/x/net/context"
 )
 

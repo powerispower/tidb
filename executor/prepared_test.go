@@ -20,9 +20,9 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/executor"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/util/testkit"
+	"github.com/powerispower/tidb/executor"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/util/testkit"
 	"golang.org/x/net/context"
 )
 

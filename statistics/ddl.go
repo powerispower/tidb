@@ -20,9 +20,9 @@ import (
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/ddl/util"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/ddl/util"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/sqlexec"
 	"golang.org/x/net/context"
 )
 

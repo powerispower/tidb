@@ -19,8 +19,8 @@ import (
 	"github.com/ngaut/pools"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/mock"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/util/mock"
 )
 
 // sessionPool is used to new session.

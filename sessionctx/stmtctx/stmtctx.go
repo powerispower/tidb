@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/util/execdetails"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/powerispower/tidb/util/execdetails"
+	"github.com/powerispower/tidb/util/memory"
 )
 
 const (

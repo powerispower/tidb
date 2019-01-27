@@ -21,7 +21,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/pingcap/tidb/tablecodec"
+	"github.com/powerispower/tidb/tablecodec"
 	"golang.org/x/net/context"
 )
 

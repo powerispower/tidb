@@ -29,13 +29,13 @@ import (
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/meta/autoid"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/types"
 )
 
 func (d *ddl) CreateSchema(ctx sessionctx.Context, schema model.CIStr, charsetInfo *ast.CharsetOpt) (err error) {
@@ -1609,7 +1609,7 @@ func (d *ddl) getModifiableColumnJob(ctx sessionctx.Context, ident ast.Ident, or
 
 	newCol := table.ToColumn(&model.ColumnInfo{
 		ID: col.ID,
-		// We use this PR(https://github.com/pingcap/tidb/pull/6274) as the dividing line to define whether it is a new version or an old version TiDB.
+		// We use this PR(https://github.com/powerispower/tidb/pull/6274) as the dividing line to define whether it is a new version or an old version TiDB.
 		// The old version TiDB initializes the column's offset and state here.
 		// The new version TiDB doesn't initialize the column's offset and state, and it will do the initialization in run DDL function.
 		// When we do the rolling upgrade the following may happen:

@@ -15,8 +15,8 @@ package sqlexec
 
 import (
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/util/chunk"
 	"golang.org/x/net/context"
 )
 

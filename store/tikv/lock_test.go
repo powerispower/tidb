@@ -20,8 +20,8 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/tikv/tikvrpc"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/store/tikv/tikvrpc"
 	"golang.org/x/net/context"
 )
 

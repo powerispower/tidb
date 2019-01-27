@@ -18,9 +18,9 @@ import (
 	"fmt"
 
 	"github.com/pingcap/parser/auth"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/util"
+	"github.com/powerispower/tidb/util/chunk"
 	"golang.org/x/net/context"
 )
 

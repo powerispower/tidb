@@ -15,7 +15,7 @@ package perfschema
 
 import (
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/table"
+	"github.com/powerispower/tidb/table"
 )
 
 // perfSchema is used for tables in performance_schema.

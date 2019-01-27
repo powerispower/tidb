@@ -15,8 +15,8 @@ package tikv
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/store/mockstore/mocktikv"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/store/mockstore/mocktikv"
 	"golang.org/x/net/context"
 )
 

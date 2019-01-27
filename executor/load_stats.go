@@ -17,10 +17,10 @@ import (
 	"encoding/json"
 
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/statistics"
+	"github.com/powerispower/tidb/util/chunk"
 	"golang.org/x/net/context"
 )
 

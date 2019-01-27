@@ -15,9 +15,9 @@ package executor_test
 
 import (
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/util/testkit"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/statistics"
+	"github.com/powerispower/tidb/util/testkit"
 )
 
 func (s *testSuite) TestShowStatsMeta(c *C) {

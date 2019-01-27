@@ -21,9 +21,9 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/config"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 var _ = Suite(&testVarsutilSuite{})

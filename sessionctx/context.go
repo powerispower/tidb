@@ -16,12 +16,12 @@ package sessionctx
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/owner"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/kvcache"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/owner"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util"
+	"github.com/powerispower/tidb/util/kvcache"
 	binlog "github.com/pingcap/tipb/go-binlog"
 	"golang.org/x/net/context"
 )

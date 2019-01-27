@@ -20,13 +20,13 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/ddl/util"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/meta"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/tablecodec"
+	"github.com/powerispower/tidb/ddl/util"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/meta"
+	"github.com/powerispower/tidb/meta/autoid"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/tablecodec"
 	log "github.com/sirupsen/logrus"
 )
 

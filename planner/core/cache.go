@@ -18,10 +18,10 @@ import (
 	"time"
 
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util/codec"
-	"github.com/pingcap/tidb/util/hack"
-	"github.com/pingcap/tidb/util/kvcache"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/util/codec"
+	"github.com/powerispower/tidb/util/hack"
+	"github.com/powerispower/tidb/util/kvcache"
 )
 
 var (

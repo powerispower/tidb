@@ -19,11 +19,11 @@ import (
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/executor"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/util/testkit"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/executor"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/util/testkit"
 	"golang.org/x/net/context"
 )
 

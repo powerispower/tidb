@@ -16,8 +16,8 @@ package expression
 import (
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/types"
 )
 
 // Error instances.

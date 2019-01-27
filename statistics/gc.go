@@ -19,8 +19,8 @@ import (
 
 	"github.com/cznic/mathutil"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/util/sqlexec"
 	"golang.org/x/net/context"
 )
 

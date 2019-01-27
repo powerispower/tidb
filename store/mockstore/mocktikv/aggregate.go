@@ -15,11 +15,11 @@ package mocktikv
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/codec"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/expression/aggregation"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/codec"
 	"golang.org/x/net/context"
 )
 

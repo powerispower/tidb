@@ -26,7 +26,7 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
 	log "github.com/sirupsen/logrus"
 )
 

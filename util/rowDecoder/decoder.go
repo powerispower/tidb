@@ -18,13 +18,13 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/mysql"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/tablecodec"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/mysql"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/tablecodec"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/chunk"
 )
 
 // Column contains the info and generated expr of column.

@@ -19,7 +19,7 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/util/arena"
+	"github.com/powerispower/tidb/util/arena"
 	log "github.com/sirupsen/logrus"
 )
 

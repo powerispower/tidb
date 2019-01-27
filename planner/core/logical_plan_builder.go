@@ -28,18 +28,18 @@ import (
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/opcode"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/expression/aggregation"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/stmtctx"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/types/parser_driver"
-	"github.com/pingcap/tidb/util/chunk"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/expression/aggregation"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/metrics"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/sessionctx/stmtctx"
+	"github.com/powerispower/tidb/statistics"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/types/parser_driver"
+	"github.com/powerispower/tidb/util/chunk"
 )
 
 const (
@@ -724,7 +724,7 @@ func (b *planBuilder) buildUnion(union *ast.UnionStmt) (LogicalPlan, error) {
 		}
 	}
 
-	// Fix issue #8189 (https://github.com/pingcap/tidb/issues/8189).
+	// Fix issue #8189 (https://github.com/powerispower/tidb/issues/8189).
 	// If there are extra expressions generated from `ORDER BY` clause, generate a `Projection` to remove them.
 	if oldLen != unionPlan.Schema().Len() {
 		proj := LogicalProjection{Exprs: expression.Column2Exprs(unionPlan.Schema().Columns[:oldLen])}.init(b.ctx)

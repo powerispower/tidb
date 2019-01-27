@@ -16,12 +16,12 @@ package infoschema_test
 import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/auth"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/statistics"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/statistics"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 func (s *testSuite) TestInfoschemaFieldValue(c *C) {

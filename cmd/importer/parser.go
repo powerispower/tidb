@@ -22,10 +22,10 @@ import (
 	"github.com/pingcap/parser"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/ddl"
-	_ "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/mock"
+	"github.com/powerispower/tidb/ddl"
+	_ "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/mock"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -20,9 +20,9 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/tracing"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/tracing"
 	"golang.org/x/net/context"
 )
 

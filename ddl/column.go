@@ -17,9 +17,9 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/ddl/util"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/meta"
+	"github.com/powerispower/tidb/ddl/util"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/meta"
 	log "github.com/sirupsen/logrus"
 )
 

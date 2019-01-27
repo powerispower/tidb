@@ -15,8 +15,8 @@ package chunk
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/memory"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/memory"
 )
 
 // List holds a slice of chunks, use to append rows with max chunk size properly handled.

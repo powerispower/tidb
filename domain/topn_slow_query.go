@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/util/execdetails"
+	"github.com/powerispower/tidb/util/execdetails"
 )
 
 type slowQueryHeap struct {

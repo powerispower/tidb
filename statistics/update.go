@@ -23,12 +23,12 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/store/tikv/oracle"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/metrics"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/store/tikv/oracle"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/sqlexec"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

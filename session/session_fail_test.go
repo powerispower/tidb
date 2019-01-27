@@ -16,17 +16,17 @@ package session_test
 import (
 	. "github.com/pingcap/check"
 	gofail "github.com/pingcap/gofail/runtime"
-	"github.com/pingcap/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testkit"
 )
 
 func (s *testSessionSuite) TestFailStatementCommit(c *C) {
-	defer gofail.Disable("github.com/pingcap/tidb/session/mockStmtCommitError")
+	defer gofail.Disable("github.com/powerispower/tidb/session/mockStmtCommitError")
 
 	tk := testkit.NewTestKitWithInit(c, s.store)
 	tk.MustExec("create table t (id int)")
 	tk.MustExec("begin")
 	tk.MustExec("insert into t values (1)")
-	gofail.Enable("github.com/pingcap/tidb/session/mockStmtCommitError", `return(true)`)
+	gofail.Enable("github.com/powerispower/tidb/session/mockStmtCommitError", `return(true)`)
 	_, err := tk.Exec("insert into t values (2)")
 	c.Assert(err, NotNil)
 	tk.MustExec("commit")

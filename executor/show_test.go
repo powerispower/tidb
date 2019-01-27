@@ -23,15 +23,15 @@ import (
 	"github.com/pingcap/parser/auth"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/meta/autoid"
-	plannercore "github.com/pingcap/tidb/planner/core"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/sessionctx/variable"
-	"github.com/pingcap/tidb/util"
-	"github.com/pingcap/tidb/util/testkit"
-	"github.com/pingcap/tidb/util/testutil"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/meta/autoid"
+	plannercore "github.com/powerispower/tidb/planner/core"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/sessionctx/variable"
+	"github.com/powerispower/tidb/util"
+	"github.com/powerispower/tidb/util/testkit"
+	"github.com/powerispower/tidb/util/testutil"
 	"golang.org/x/net/context"
 )
 
@@ -52,14 +52,14 @@ func (s *testSuite) TestShow(c *C) {
 	result = tk.MustQuery(testSQL)
 	c.Check(result.Rows(), HasLen, 1)
 	row := result.Rows()[0]
-	// For issue https://github.com/pingcap/tidb/issues/1061
+	// For issue https://github.com/powerispower/tidb/issues/1061
 	expectedRow := []interface{}{
 		"SHOW_test", "CREATE TABLE `SHOW_test` (\n  `id` int(11) NOT NULL AUTO_INCREMENT,\n  `c1` int(11) DEFAULT NULL COMMENT 'c1_comment',\n  `c2` int(11) DEFAULT NULL,\n  `c3` int(11) DEFAULT '1',\n  `c4` text DEFAULT NULL,\n  `c5` tinyint(1) DEFAULT NULL,\n  PRIMARY KEY (`id`),\n  KEY `idx_wide_c4` (`c3`,`c4`(10))\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=28934 COMMENT='table_comment'"}
 	for i, r := range row {
 		c.Check(r, Equals, expectedRow[i])
 	}
 
-	// For issue https://github.com/pingcap/tidb/issues/1918
+	// For issue https://github.com/powerispower/tidb/issues/1918
 	testSQL = `create table ptest(
 		a int primary key,
 		b double NOT NULL DEFAULT 2.0,
@@ -208,7 +208,7 @@ func (s *testSuite) TestShow(c *C) {
 	c.Check(result.Rows(), HasLen, 1)
 
 	// Test show full columns
-	// for issue https://github.com/pingcap/tidb/issues/4224
+	// for issue https://github.com/powerispower/tidb/issues/4224
 	tk.MustExec(`drop table if exists show_test_comment`)
 	tk.MustExec(`create table show_test_comment (id int not null default 0 comment "show_test_comment_id")`)
 	tk.MustQuery(`show full columns from show_test_comment`).Check(testutil.RowsWithSep("|",
@@ -216,7 +216,7 @@ func (s *testSuite) TestShow(c *C) {
 	))
 
 	// Test show create table with AUTO_INCREMENT option
-	// for issue https://github.com/pingcap/tidb/issues/3747
+	// for issue https://github.com/powerispower/tidb/issues/3747
 	tk.MustExec(`drop table if exists show_auto_increment`)
 	tk.MustExec(`create table show_auto_increment (id int key auto_increment) auto_increment=4`)
 	tk.MustQuery(`show create table show_auto_increment`).Check(testutil.RowsWithSep("|",
@@ -226,7 +226,7 @@ func (s *testSuite) TestShow(c *C) {
 			"  PRIMARY KEY (`id`)\n"+
 			") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin AUTO_INCREMENT=4",
 	))
-	// for issue https://github.com/pingcap/tidb/issues/4678
+	// for issue https://github.com/powerispower/tidb/issues/4678
 	autoIDStep := autoid.GetStep()
 	tk.MustExec("insert into show_auto_increment values(20)")
 	autoID := autoIDStep + 21
@@ -257,7 +257,7 @@ func (s *testSuite) TestShow(c *C) {
 	))
 
 	// Test show table with column's comment contain escape character
-	// for issue https://github.com/pingcap/tidb/issues/4411
+	// for issue https://github.com/powerispower/tidb/issues/4411
 	tk.MustExec(`drop table if exists show_escape_character`)
 	tk.MustExec(`create table show_escape_character(id int comment 'a\rb\nc\td\0ef')`)
 	tk.MustQuery(`show create table show_escape_character`).Check(testutil.RowsWithSep("|",
@@ -267,7 +267,7 @@ func (s *testSuite) TestShow(c *C) {
 			") ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin",
 	))
 
-	// for issue https://github.com/pingcap/tidb/issues/4424
+	// for issue https://github.com/powerispower/tidb/issues/4424
 	tk.MustExec("drop table if exists show_test")
 	testSQL = `create table show_test(
 		a varchar(10) COMMENT 'a\nb\rc\td\0e'
@@ -283,7 +283,7 @@ func (s *testSuite) TestShow(c *C) {
 		c.Check(r, Equals, expectedRow[i])
 	}
 
-	// for issue https://github.com/pingcap/tidb/issues/4425
+	// for issue https://github.com/powerispower/tidb/issues/4425
 	tk.MustExec("drop table if exists show_test")
 	testSQL = `create table show_test(
 		a varchar(10) DEFAULT 'a\nb\rc\td\0e'
@@ -299,7 +299,7 @@ func (s *testSuite) TestShow(c *C) {
 		c.Check(r, Equals, expectedRow[i])
 	}
 
-	// for issue https://github.com/pingcap/tidb/issues/4426
+	// for issue https://github.com/powerispower/tidb/issues/4426
 	tk.MustExec("drop table if exists show_test")
 	testSQL = `create table show_test(
 		a bit(1),

@@ -21,12 +21,12 @@ import (
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/domain"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/sessionctx"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/util/chunk"
-	"github.com/pingcap/tidb/util/sqlexec"
+	"github.com/powerispower/tidb/domain"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/sessionctx"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/util/chunk"
+	"github.com/powerispower/tidb/util/sqlexec"
 	"golang.org/x/net/context"
 )
 

@@ -42,8 +42,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/types"
-	"github.com/pingcap/tidb/util/hack"
+	"github.com/powerispower/tidb/types"
+	"github.com/powerispower/tidb/util/hack"
 	"golang.org/x/net/context"
 )
 

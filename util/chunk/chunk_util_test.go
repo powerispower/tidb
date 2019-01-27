@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/types"
 )
 
 func getChk() (*Chunk, *Chunk, []bool) {

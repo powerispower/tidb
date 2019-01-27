@@ -20,7 +20,7 @@ import (
 
 	basictracer "github.com/opentracing/basictracer-go"
 	"github.com/opentracing/opentracing-go"
-	"github.com/pingcap/tidb/util/tracing"
+	"github.com/powerispower/tidb/util/tracing"
 	"golang.org/x/net/context"
 )
 

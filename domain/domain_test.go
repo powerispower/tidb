@@ -22,9 +22,9 @@ import (
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/util/mock"
-	"github.com/pingcap/tidb/util/testleak"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/util/mock"
+	"github.com/powerispower/tidb/util/testleak"
 )
 
 func TestT(t *testing.T) {

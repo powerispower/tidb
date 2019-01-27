@@ -16,8 +16,8 @@ package executor_test
 import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/terror"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/util/testkit"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/util/testkit"
 )
 
 func (s *testSuite) TestInsertOnDuplicateKey(c *C) {

@@ -15,7 +15,7 @@ package codec
 
 import (
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/types"
 )
 
 // EncodeDecimal encodes a decimal into a byte slice which can be sorted lexicographically later.

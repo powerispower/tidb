@@ -18,11 +18,11 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/ast"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/infoschema"
-	"github.com/pingcap/tidb/planner/property"
-	"github.com/pingcap/tidb/privilege"
-	"github.com/pingcap/tidb/sessionctx"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/infoschema"
+	"github.com/powerispower/tidb/planner/property"
+	"github.com/powerispower/tidb/privilege"
+	"github.com/powerispower/tidb/sessionctx"
 )
 
 // AllowCartesianProduct means whether tidb allows cartesian join without equal conditions.

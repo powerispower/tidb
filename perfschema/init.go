@@ -17,9 +17,9 @@ import (
 	"github.com/pingcap/parser/charset"
 	"github.com/pingcap/parser/model"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb/meta/autoid"
-	"github.com/pingcap/tidb/table"
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/meta/autoid"
+	"github.com/powerispower/tidb/table"
+	"github.com/powerispower/tidb/types"
 )
 
 type columnInfo struct {

@@ -19,11 +19,11 @@ import (
 
 	. "github.com/pingcap/check"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/ddl"
-	"github.com/pingcap/tidb/session"
-	"github.com/pingcap/tidb/store/mockstore"
-	"github.com/pingcap/tidb/store/tikv"
-	"github.com/pingcap/tidb/tablecodec"
+	"github.com/powerispower/tidb/ddl"
+	"github.com/powerispower/tidb/session"
+	"github.com/powerispower/tidb/store/mockstore"
+	"github.com/powerispower/tidb/store/tikv"
+	"github.com/powerispower/tidb/tablecodec"
 	"golang.org/x/net/context"
 )
 

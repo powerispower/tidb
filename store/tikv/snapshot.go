@@ -22,10 +22,10 @@ import (
 
 	"github.com/pingcap/errors"
 	pb "github.com/pingcap/kvproto/pkg/kvrpcpb"
-	"github.com/pingcap/tidb/kv"
-	"github.com/pingcap/tidb/metrics"
-	"github.com/pingcap/tidb/store/tikv/tikvrpc"
-	"github.com/pingcap/tidb/tablecodec"
+	"github.com/powerispower/tidb/kv"
+	"github.com/powerispower/tidb/metrics"
+	"github.com/powerispower/tidb/store/tikv/tikvrpc"
+	"github.com/powerispower/tidb/tablecodec"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

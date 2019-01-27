@@ -24,7 +24,7 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	"github.com/pingcap/pd/client"
-	"github.com/pingcap/tidb/metrics"
+	"github.com/powerispower/tidb/metrics"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 )

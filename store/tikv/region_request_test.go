@@ -24,9 +24,9 @@ import (
 	"github.com/pingcap/kvproto/pkg/coprocessor"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/tikvpb"
-	"github.com/pingcap/tidb/config"
-	"github.com/pingcap/tidb/store/mockstore/mocktikv"
-	"github.com/pingcap/tidb/store/tikv/tikvrpc"
+	"github.com/powerispower/tidb/config"
+	"github.com/powerispower/tidb/store/mockstore/mocktikv"
+	"github.com/powerispower/tidb/store/tikv/tikvrpc"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

@@ -16,8 +16,8 @@ package ranger
 import (
 	"github.com/pingcap/parser/ast"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb/expression"
-	"github.com/pingcap/tidb/types"
+	"github.com/powerispower/tidb/expression"
+	"github.com/powerispower/tidb/types"
 )
 
 // conditionChecker checks if this condition can be pushed to index planner.
