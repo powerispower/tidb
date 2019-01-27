@@ -24,7 +24,7 @@ import (
 	. "github.com/pingcap/check"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/terror"
-	pumpcli "github.com/powerispower/tidb-tools/tidb-binlog/pump_client"
+	pumpcli "github.com/pingcap/tidb-tools/tidb-binlog/pump_client"
 	"github.com/powerispower/tidb/ddl"
 	"github.com/powerispower/tidb/domain"
 	"github.com/powerispower/tidb/kv"

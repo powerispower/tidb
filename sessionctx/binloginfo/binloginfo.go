@@ -23,8 +23,8 @@ import (
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser/terror"
-	"github.com/powerispower/tidb-tools/tidb-binlog/node"
-	pumpcli "github.com/powerispower/tidb-tools/tidb-binlog/pump_client"
+	"github.com/pingcap/tidb-tools/tidb-binlog/node"
+	pumpcli "github.com/pingcap/tidb-tools/tidb-binlog/pump_client"
 	"github.com/powerispower/tidb/kv"
 	"github.com/powerispower/tidb/metrics"
 	"github.com/powerispower/tidb/sessionctx"

@@ -26,7 +26,7 @@ import (
 	"github.com/pingcap/parser/auth"
 	"github.com/pingcap/parser/mysql"
 	"github.com/pingcap/parser/terror"
-	pumpcli "github.com/powerispower/tidb-tools/tidb-binlog/pump_client"
+	pumpcli "github.com/pingcap/tidb-tools/tidb-binlog/pump_client"
 	"github.com/powerispower/tidb/config"
 	"github.com/powerispower/tidb/kv"
 	"github.com/powerispower/tidb/meta/autoid"
